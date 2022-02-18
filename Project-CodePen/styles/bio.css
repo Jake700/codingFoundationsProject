@@ -1,0 +1,39 @@
+.bio-page {
+    background-color: black;
+    background-image: linear-gradient(to right, #36383f, black);
+    color: #b6b6b6;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.bio {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 10em;
+    margin-right: 5%;
+    font-size: 3em;
+}
+.bio p2 {
+    font-size: 40spx;
+}
+
+.bio p {
+    color: rgb(223, 223, 223);
+}
+.bio-page > .bio > .bio-btns {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.bio-page > .bio-right {
+    margin-top: 120px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.bio-page > .bio-right img{
+    height: 100%;
+    width: 100%;
+}
